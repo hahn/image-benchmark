@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnPicasso"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Picasso"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnGlide"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Glide"
+        app:layout_constraintEnd_toEndOf="@+id/btnPicasso"
+        app:layout_constraintStart_toStartOf="@+id/btnPicasso"
+        app:layout_constraintTop_toBottomOf="@+id/btnPicasso" />
+
+    <Button
+        android:id="@+id/btnCoil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Coil"
+        app:layout_constraintEnd_toEndOf="@+id/btnGlide"
+        app:layout_constraintStart_toStartOf="@+id/btnGlide"
+        app:layout_constraintTop_toBottomOf="@+id/btnGlide" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

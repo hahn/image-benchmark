@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EclipseCodeFormatterProjectSettings">
+    <option name="selectedGlobalProfile">
+      <Settings>
+        <option name="formatter" value="ECLIPSE" />
+        <option name="id" value="1574217607085" />
+        <option name="name" value="GDN" />
+        <option name="pathToConfigFileJava" value="$PROJECT_DIR$/../../../../work/doc/xml/blibli_profile_code_formatter_updated.xml" />
+        <option name="selectedJavaProfile" value="BliBli Code Formatter Profile" />
+      </Settings>
+    </option>
+  </component>
+</project>
